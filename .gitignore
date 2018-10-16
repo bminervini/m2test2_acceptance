@@ -1,0 +1,7 @@
+.idea
+.idea/*
+**/target
+cache.properties
+\.vscode/tasks\.json
+./build/logs
+**/*.iml
