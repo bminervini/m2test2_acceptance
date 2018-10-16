@@ -17,9 +17,9 @@ public class ConnectionInviteTest {
     @Test
     public void test2() throws Exception {
         driver.get("http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/dashboard.php");
-        assertEquals(driver.getCurrentUrl(), "http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/login.php");
+        Assert.assertEquals(driver.getCurrentUrl(), "http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/login.php");
         driver.get("http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/calendar.php");
-        assertEquals(driver.getCurrentUrl(), "http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/dashboard.php");
+        Assert.assertEquals(driver.getCurrentUrl(), "http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/dashboard.php");
     }
     @After
     public void tearDown() throws Exception {
