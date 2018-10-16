@@ -18,7 +18,7 @@ public class DashboardCalendar {
 
   @Test
   public void testDashboardCalendar() throws Exception {
-    driver.get(baseUrl + "m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/login.php");
+    driver.get(baseUrl + "http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/login.php");
     // Thread.sleep(2000);
     driver.findElement(By.name("username")).clear();
     driver.findElement(By.name("username")).sendKeys("admin");
