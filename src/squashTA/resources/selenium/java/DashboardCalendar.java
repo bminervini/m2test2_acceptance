@@ -27,8 +27,7 @@ public class DashboardCalendar {
     driver.findElement(By.name("submit")).click();
     driver.findElement(By.linkText("Calendrier")).click();
     Thread.sleep(2000);
-    // Assert.assertTrue(driver.findElement(By.xpath("//body")).isDisplayed());
-    Assert.assertTrue(true);
+    Assert.assertTrue(driver.findElement(By.xpath("//body")).isDisplayed());
   }
 
   @After
