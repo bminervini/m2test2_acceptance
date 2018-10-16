@@ -19,6 +19,7 @@ public class AccessTest
     @Test
     public void testAccess() throws Exception {
         driver.get("http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/login.php");
+        Thread.sleep(2000);
         assertEquals(driver.getCurrentUrl(), "http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/login.php");
     }
 
