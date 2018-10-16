@@ -24,6 +24,8 @@ public class ConnectionTest {
         driver.findElement(By.name("password")).clear();
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("submit")).click();
+        Thread.sleep(2000);
+        Assert.assertEquals(driver.getCurrentUrl(), "http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/dashboard.php");
     }
     @After
     public void tearDown() throws Exception {
