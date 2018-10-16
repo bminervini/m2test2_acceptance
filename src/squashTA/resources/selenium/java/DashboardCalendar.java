@@ -18,15 +18,15 @@ public class DashboardCalendar {
 
   @Test
   public void testDashboardCalendar() throws Exception {
-    driver.get(baseUrl + "m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod");
-    Thread.sleep(2000);
+    driver.get(baseUrl + "m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/");
+    // Thread.sleep(2000);
     driver.findElement(By.name("username")).clear();
     driver.findElement(By.name("username")).sendKeys("admin");
     driver.findElement(By.name("password")).clear();
     driver.findElement(By.name("password")).sendKeys("admin");
     driver.findElement(By.name("submit")).click();
     driver.findElement(By.linkText("Calendrier")).click();
-    assertTrue(driver.findElement(By.xpath("//body")).isDisplayed());
+    Assert.assertTrue(driver.findElement(By.xpath("//body")).isDisplayed());
   }
 
   @After
