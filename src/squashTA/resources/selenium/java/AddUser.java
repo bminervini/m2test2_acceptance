@@ -25,7 +25,7 @@ public class AddUser {
 
   @Test
   public void testAddUser() throws Exception {
-    driver.get("http://localhost/m2test2/static/login.php");
+    driver.get("http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/login.php");
     driver.findElement(By.linkText("S'inscrire")).click();
     driver.findElement(By.name("firstname")).click();
     driver.findElement(By.name("firstname")).clear();
