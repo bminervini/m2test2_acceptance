@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<personne nom="henry" prenom="paul" username="paul" mail="paul.henry@edu.univ-fcomte.fr" gmail="paulhenry@gmail.com" password="6c63212ab48e8401eaf6b59b95d816a9" isAdmin="0" accepte="0" statutParticipation="0" nbreCroissantAmene="0">
+</dataset>
