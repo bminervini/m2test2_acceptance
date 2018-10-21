@@ -5,10 +5,8 @@
 
 
 SETUP :
-
 // vide la table 
 # DELETE_ALL_DBUNIT datasets/cleaning-personne.xml FROM CroissantShow
-
 // Insere les elements dans l'ordre du depliage du script
 # INSERT_DBUNIT datasets/personne.xml INTO CroissantShow
 
