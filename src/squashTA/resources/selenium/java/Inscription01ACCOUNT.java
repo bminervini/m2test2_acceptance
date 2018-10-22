@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
-public class 01ACCOUNTInscription {
+public class Inscription01ACCOUNT {
   private HtmlUnitDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;

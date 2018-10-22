@@ -11,6 +11,6 @@ SETUP :
 # INSERT_DBUNIT datasets/personne.xml INTO CroissantShow
 
 TEST :
-# EXECUTE_SELENIUM2 selenium WITH MAIN CLASS 01ACCOUNTInscription
+# EXECUTE_SELENIUM2 selenium WITH MAIN CLASS Inscription01ACCOUNT
 
 TEARDOWN :

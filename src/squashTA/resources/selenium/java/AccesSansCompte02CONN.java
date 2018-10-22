@@ -3,7 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import static org.junit.Assert.fail;
 
-public class 02CONNAccesSansCompte {
+public class AccesSansCompte02CONN {
     private HtmlUnitDriver driver;
     private String baseUrl;
     private String valX;

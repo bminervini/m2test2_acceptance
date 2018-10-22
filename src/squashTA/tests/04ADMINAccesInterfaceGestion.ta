@@ -9,6 +9,6 @@ SETUP :
 // here we test the macro defined in shortcuts/sample_shortcut.macro. Note that none of the instructions here are case sensitive :
 
 TEST :
-# EXECUTE_SELENIUM2 selenium WITH MAIN CLASS 04ADMINAccesInterfaceGestion
+# EXECUTE_SELENIUM2 selenium WITH MAIN CLASS AccesInterfaceGestion04ADMIN
 
 TEARDOWN :

@@ -4,7 +4,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 import static org.junit.Assert.fail;
 
-public class 04ADMINAccesInterfaceGestion {
+public class AccesInterfaceGestion04ADMIN {
     private HtmlUnitDriver driver;
     private String baseUrl;
     private String valX;
