@@ -26,15 +26,15 @@ public class Authentification03CONN {
     driver.findElement(By.name("password")).sendKeys("admin");
     driver.findElement(By.name("submit")).click();
     driver.findElement(By.linkText("Utilisateurs")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='yannis.beaux@gmail.com'])[1]/following::button[1]")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Je ne participe pas'])[1]/following::i[1]")).click();
+    driver.findElement(By.name("add")).click();
+    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Cron'])[1]/following::i[1]")).click();
     driver.findElement(By.name("username")).click();
     driver.findElement(By.name("username")).clear();
     driver.findElement(By.name("username")).sendKeys("luc");
     driver.findElement(By.name("password")).clear();
     driver.findElement(By.name("password")).sendKeys("luc");
-    driver.findElement(By.name("submit")).click();
-    Assert.assertTrue(driver.findElement(By.id("dropdownMenu1")).isDisplayed());
+    driver.findElement(By.name("password")).sendKeys(Keys.ENTER);
+    Assert.assertEquals("luc", driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Calendrier'])[1]/following::span[1]")).getText());
   }
 
   @After
