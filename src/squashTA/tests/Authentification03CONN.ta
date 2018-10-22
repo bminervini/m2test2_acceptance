@@ -5,8 +5,9 @@
 
 
 SETUP :
-
-// here we test the macro defined in shortcuts/sample_shortcut.macro. Note that none of the instructions here are case sensitive :
+// vide la table 
+# DELETE_ALL_DBUNIT datasets/cleaning-personne.xml FROM CroissantShow
+# INSERT_DBUNIT datasets/personne.xml INTO CroissantShow
 
 TEST :
 # EXECUTE_SELENIUM2 selenium WITH MAIN CLASS Authentification03CONN
