@@ -33,7 +33,7 @@ public class Authentification03CONN {
     driver.findElement(By.name("username")).sendKeys("luc");
     driver.findElement(By.name("password")).clear();
     driver.findElement(By.name("password")).sendKeys("luc");
-    driver.findElement(By.name("password")).sendKeys(Keys.ENTER);
+    driver.findElement(By.name("submit")).click();
     Assert.assertEquals("luc", driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Calendrier'])[1]/following::span[1]")).getText());
   }
 
