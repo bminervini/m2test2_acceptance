@@ -3,7 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import static org.junit.Assert.fail;
 
-public class ConnectionInviteTest {
+public class 02CONNAccesSansCompte {
     private HtmlUnitDriver driver;
     private String baseUrl;
     private String valX;
@@ -16,12 +16,11 @@ public class ConnectionInviteTest {
     }
     @Test
     public void test2() throws Exception {
-        driver.get("http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/dashboard.php");
+        driver.get("http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/login.php");
         Thread.sleep(2000);
-        Assert.assertEquals(driver.getCurrentUrl(), "http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/login.php");
-        driver.get("http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/calendar.php");
+        Assert.assertTrue(driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)=concat('Croissant Show', \"'\", '')])[1]/following::h2[1]")).isDisplayed());
         Thread.sleep(2000);
-        Assert.assertEquals(driver.getCurrentUrl(), "http://m2gl.deptinfo-st.univ-fcomte.fr/~m2test2/preprod/static/login.php");
+        Assert.assertTrue(driver.findElement(By.linkText("S'inscrire")).isDisplayed());
     }
     @After
     public void tearDown() throws Exception {

@@ -4,7 +4,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
-public class AccessTest
+public class 01CONNAccesAuSite
 {
     private HtmlUnitDriver driver;
     private String baseUrl;
