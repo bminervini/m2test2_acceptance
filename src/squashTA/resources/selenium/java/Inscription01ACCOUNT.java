@@ -35,8 +35,8 @@ public class Inscription01ACCOUNT {
     driver.findElement(By.name("password")).clear();
     driver.findElement(By.name("password")).sendKeys("brandon");
     driver.findElement(By.name("submit")).click();
-    assertTrue(driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='isAdmin'])[1]/following::div[1]")).isDisplayed());
-    assertEquals("User successfully registered !", driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='isAdmin'])[1]/following::div[1]")).getText());
+    Assert.assertTrue(driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='isAdmin'])[1]/following::div[1]")).isDisplayed());
+    Assert.assertEquals("User successfully registered !", driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='isAdmin'])[1]/following::div[1]")).getText());
   }
 
   @After
