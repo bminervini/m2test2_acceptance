@@ -1,0 +1,9 @@
+
+SETUP :
+
+
+TEST :
+# EXECUTE_SELENIUM2 selenium WITH MAIN CLASS SupprimerUtilisateur03ADMIN
+
+TEARDOWN :
+# ASSERT_DBUNIT TARGET m2test2 CONTAINS datasets/after03ADMIN.xml
