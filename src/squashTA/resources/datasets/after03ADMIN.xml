@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
-	<personne nom="Henry" prenom="Paul" username="paul" mail="paul.henry@edu.univ-fcomte.fr" gmail="paulhenry@gmail.com" password="6c63212ab48e8401eaf6b59b95d816a9" isAdmin="0" accepte="1" statutParticipation="0" nbreCroissantAmene="0"/>
+	<personne nom="Administrateur" prenom="admin" username="admin" mail="admin@edu.univ-fcomte.fr" gmail="admin@gmail.com" password="21232f297a57a5a743894a0e4a801fc3" isAdmin="1" accepte="1" statutParticipation="0" nbreCroissantAmene="0"/>
+	<personne nom="Minervini" prenom="Baptiste" username="bapt" mail="bapt@edu.univ-fcomte.fr" gmail="bapt@gmail.com" password="924eca6f95a36f1e6de6f1d70aac95e9" isAdmin="0" accepte="1" statutParticipation="1" nbreCroissantAmene="0"/>
+	<personne nom="Merandat" prenom="John" username="john" mail="john@edu.univ-fcomte.fr" gmail="john@gmail.com" password="527bd5b5d689e2c32ae974c6229ff785" isAdmin="0" accepte="1" statutParticipation="1" nbreCroissantAmene="10"/>
+	<personne nom="Diallo" prenom="Awa" username="awa" mail="awa@edu.univ-fcomte.fr" gmail="awa@gmail.com" password="1b5f31288e7d4e053c4c73ec03c3a6b6" isAdmin="0" accepte="1" statutParticipation="0" nbreCroissantAmene="0"/>
+	<personne nom="Beaux" prenom="Yannis" username="yan" mail="yannis@edu.univ-fcomte.fr" gmail="yannis@gmail.com" password="911f6332e7f90b94b87f15377263995c" isAdmin="0" accepte="1" statutParticipation="0" nbreCroissantAmene="0"/>
+	<personne nom="Mary" prenom="Lucas" username="luc" mail="lucas@edu.univ-fcomte.fr" gmail="lucas@gmail.com" password="2e6fdbc573b2975790d504991183519e" isAdmin="0" accepte="0" statutParticipation="0" nbreCroissantAmene="0"/>
 </dataset>
