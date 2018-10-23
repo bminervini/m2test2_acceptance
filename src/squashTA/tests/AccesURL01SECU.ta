@@ -1,0 +1,16 @@
+// lines prefixed with double slashes count as commentary.
+// the following test will just load a file during the setup phase
+// and make it available in the test context. Read the documentation
+// to know more about scripting.
+
+
+SETUP :
+// vide la table 
+# DELETE_ALL_DBUNIT datasets/cleaning-personne.xml FROM CroissantShow
+// Insere les elements dans l'ordre du depliage du script
+# INSERT_DBUNIT datasets/personne.xml INTO CroissantShow
+
+TEST :
+# EXECUTE_SELENIUM2 selenium WITH MAIN CLASS AccesURL01SECU
+
+TEARDOWN :
