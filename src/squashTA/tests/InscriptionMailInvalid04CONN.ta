@@ -1,0 +1,10 @@
+
+SETUP :
+# DELETE_ALL_DBUNIT datasets/cleaning-personne.xml FROM CroissantShow
+# INSERT_DBUNIT datasets/personne.xml INTO CroissantShow
+
+TEST :
+# EXECUTE_SELENIUM2 selenium WITH MAIN CLASS InscriptionMailInvalid04CONN
+
+TEARDOWN :
+# ASSERT_DBUNIT TARGET CroissantShow CONTAINS datasets/personne.xml
