@@ -7,4 +7,5 @@
 	<personne nom="Diallo" prenom="Awa" username="awa" mail="awa@edu.univ-fcomte.fr" gmail="awa@gmail.com" password="1b5f31288e7d4e053c4c73ec03c3a6b6" isAdmin="0" accepte="1" statutParticipation="0" nbreCroissantAmene="0"/>
 	<personne nom="Beaux" prenom="Yannis" username="yan" mail="yannis@edu.univ-fcomte.fr" gmail="yannis@gmail.com" password="911f6332e7f90b94b87f15377263995c" isAdmin="0" accepte="1" statutParticipation="0" nbreCroissantAmene="0"/>
 	<personne nom="Mary" prenom="Lucas" username="luc" mail="lucas@edu.univ-fcomte.fr" gmail="lucas@gmail.com" password="2e6fdbc573b2975790d504991183519e" isAdmin="0" accepte="0" statutParticipation="0" nbreCroissantAmene="0"/>
+	<personne nom="M2TEST2" prenom="m2test2" username="m2test2" mail="m2test2.croissant.show@edu.univ-fcomte.fr" gmail="m2test2.croissant.show@gmail.com" password="0601933bd4d73d80d1f613fd54a91bb6" isAdmin="0" accepte="0" statutParticipation="0" nbreCroissantAmene="0"/>
 </dataset>
